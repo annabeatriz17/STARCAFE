@@ -11,7 +11,7 @@ class OrderList {
     getOrderById(id) {
         const order = this.order.find(order => order.id == id);
         if (!order) {
-            throw new Error('Pedido não encontrado');
+            throw new Error("Pedido não encontrado");
         }
         return order;
     }

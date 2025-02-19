@@ -1,4 +1,4 @@
-const { v4: uuid4 } = require('uuid');
+const { v4: uuid4 } = require("uuid");
 
 class Menu {
     constructor(nome, preco, categoria) {
